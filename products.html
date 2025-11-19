@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Brew Haven — Products</title>
+  <meta name="description" content="Explore Brew Haven’s small-batch roasted coffees and subscriptions."/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="logo">Brew<span>Haven</span></a>
+      <nav>
+        <button id="nav-toggle" class="nav-toggle">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Beans</h1>
+
+    <div class="controls">
+      <input id="product-search" type="search" placeholder="Search beans or tasting notes" />
+      <select id="product-filter">-
+        <opti3on value="">All roasts</option>
+        <option value="light">Light</option>
+        <option value="medium">Medium</option>
+        <option value="dark">Dark</option>
+      </select>
+      <select id="product-sort">
+        <option value="featured">Featured</option>
+        <option value="name-asc">Name A–Z</option>
+        <option value="price-asc">Price low to high</option>
+      </select>
+    </div>
+
+    <div id="products-list" class="grid"></div>
+  </main>
+</body>
+</html>

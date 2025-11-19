@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Brew Haven — Contact</title>
+  <meta name="description" content="Contact Brew Haven for general queries, press or partnerships."/>
+  <link rel="stylesheet" href="css/styles.*css"/>
+  <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="logo">Brew<span>Haven</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+
+    <form id="contact-form" action="#" novalidate>
+      <label>Full name</label>
+      <input name="name" required minlength="2"/>
+
+      <label>Email</label>
+      <input name="email" type="email" required/>
+
+      <label>Message type</label>
+      <select name="messageType" required>
+        <option value="">Choose…</option>
+        <option value="info">General Information</option>
+        <option value="press">Press / Media</option>
+        <option value="partnership">Partnership</option>
+      </select>
+
+      <label>Message</label>
+      <textarea name="message" required minlength="10"></textarea>
+
+      <label>Phone (optional)</label>
+      <input name="phone" pattern="\\+?[0-9\\-\\s]{7,20}"/>
+
+      <button class="btn" type="submit">Send Message</button>
+
+      <div id="contact-response" aria-live="polite"></div>
+    </form>
+  </main>
+</body>
+</html>

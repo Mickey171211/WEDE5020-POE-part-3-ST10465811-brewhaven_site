@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Ethiopian Sunrise",
+    "origin": "Ethiopia",
+    "roast": "Light",
+    "notes": "Floral aroma with hints of blueberry and jasmine.",
+    "price": 120,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Colombian Gold Roast",
+    "origin": "Colombia",
+    "roast": "Medium",
+    "notes": "Smooth body, caramel sweetness, balanced acidity.",
+    "price": 140,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Kenyan Bold",
+    "origin": "Kenya",
+    "roast": "Dark",
+    "notes": "Rich, intense, with citrus and cocoa undertones.",
+    "price": 160,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Brazilian Velvet Roast",
+    "origin": "Brazil",
+    "roast": "Medium",
+    "notes": "Nutty flavor with a velvety chocolate finish.",
+    "price": 130,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Guatemalan Fire Blend",
+    "origin": "Guatemala",
+    "roast": "Dark",
+    "notes": "Smoky and bold with toasted brown sugar aroma.",
+    "price": 150,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Honduras Sweet Roast",
+    "origin": "Honduras",
+    "roast": "Light",
+    "notes": "Sweet honey tones with citric freshness.",
+    "price": 125,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Peru Andes Harmony",
+    "origin": "Peru",
+    "roast": "Medium",
+    "notes": "Balanced notes of cocoa, nuts, and soft fruit.",
+    "price": 135,
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "House Blend Classic",
+    "origin": "Multi-Origin",
+    "roast": "Medium",
+    "notes": "Smooth, reliable, all-day drinker.",
+    "price": 110,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "Cocoa Night Roast",
+    "origin": "Uganda",
+    "roast": "Dark",
+    "notes": "Strong chocolate aroma and bold body.",
+    "price": 155,
+    "featured": false
+  },
+  {
+    "id": 10,
+    "title": "Vietnam Drip Roast",
+    "origin": "Vietnam",
+    "roast": "Dark",
+    "notes": "Chocolatey, bold, perfect for iced coffee.",
+    "price": 145,
+    "featured": false
+  },
+  {
+    "id": 11,
+    "title": "Rwanda Mountain Pearl",
+    "origin": "Rwanda",
+    "roast": "Light",
+    "notes": "Tea-like body with notes of peach and grapefruit.",
+    "price": 150,
+    "featured": false
+  },
+  {
+    "id": 12,
+    "title": "Tanzanian Volcano Blend",
+    "origin": "Tanzania",
+    "roast": "Medium",
+    "notes": "Rich, earthy blend with fruity acidity.",
+    "price": 145,
+    "featured": false
+  }
+]

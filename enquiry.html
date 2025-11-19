@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Brew Haven — Enquiry</title>
+  <meta name="description" content="Enquire about subscriptions, wholesale, event coffee or bookings."/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="logo" href="index.html">Brew<span>Haven</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Enquiry</h1>
+    <p class="lead">We’ll get back to you with pricing, availability or subscription details.</p>
+
+    <form id="enquiry-form" action="#" novalidate>
+      <label>Full name</label>
+      <input name="name" required minlength="2"/>
+
+      <label>Email</label>
+      <input name="email" type="email" required/>
+
+      <label>Enquiry type</label>
+      <select name="type" required>
+        <option value="">Choose…</option>
+        <option value="subscription">Bean subscription</option>
+        <option value="wholesale">Wholesale</option>
+        <option value="event">Event coffee</option>
+        <option value="booking">Café booking</option>
+      </select>
+
+      <label>Details</label>
+      <textarea name="details" required minlength="20"></textarea>
+
+      <label>Budget (optional)</label>
+      <input name="budget" type="text"/>
+
+      <button class="btn" type="submit">Submit Enquiry</button>
+
+      <div id="enquiry-response" aria-live="polite"></div>
+    </form>
+  </main>
+</body>
+</html>

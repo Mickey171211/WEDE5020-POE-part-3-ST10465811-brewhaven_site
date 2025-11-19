@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://brewhaven.co.za/sitemap.xml
+
+Disallow: /admin/
+Disallow: /cgi-bin/

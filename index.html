@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Brew Haven — Home</title>
+  <meta name="description" content="Brew Haven Coffee Roasters — small-batch roasted beans, café events & subscriptions."/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/scripts.js"></script>
+</head>
+
+<body class="bh-body">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="logo">Brew<span>Haven</span></a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Small-batch roasted. Big on flavour.</h1>
+        <p>Ethically-sourced beans roasted in small batches. In-store café, subscriptions, and community events.</p>
+
+        <p class="hero-cta">
+          <a class="btn" href="products.html">Shop Beans</a>
+          <a class="btn btn-ghost" href="enquiry.html">Subscribe / Wholesale</a>
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/hero-coffee.jpg" alt="Barista pouring latte art at Brew Haven"/>
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">What we do</h2>
+      <div id="features-grid" class="grid"><!-- Injected by JS --></div>
+    </section>
+
+    <section class="featured-products" aria-labelledby="featured-heading">
+      <h2 id="featured-heading">Featured Beans</h2>
+      <div id="featured-list" class="grid"></div>
+    </section>
+
+    <section class="map-section">
+      <h2>Find Brew Haven</h2>
+      <div id="map"></div>
+    </section>
+  </main>+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="logo-footer"><strong>Brew Haven</strong> Coffee Roasters</p>
+        <p>Ethical beans • Small-batch roasts • Community events</p>
+      </div>
+      <div>
+        <nav aria-label="Footer">
+          <a href="#">Privacy</a> • <a href="sitemap.xml">Sitemap</a>
+        </nav>
+        <p>&copy; <span id="year"></span> Brew Haven</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

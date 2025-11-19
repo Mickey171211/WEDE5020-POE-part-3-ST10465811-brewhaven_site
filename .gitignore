@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# Logs
+npm-debug.log
+yarn-error.log
